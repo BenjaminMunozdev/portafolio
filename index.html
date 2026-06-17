@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benjamín Muñoz — Desarrollador Fullstack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+
+    <nav>
+      <span class="nav-name">Benjamín Muñoz</span>
+      <ul class="nav-links">
+        <li><a href="#proyectos">proyectos</a></li>
+        <li><a href="#about">sobre mí</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contacto</a></li>
+      </ul>
+      <a href="Curriculum_Benjamin_Munoz.pdf" download class="nav-cv">↓ descargar cv</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#proyectos">proyectos</a>
+      <a href="#about">sobre mí</a>
+      <a href="#skills">skills</a>
+      <a href="#contact">contacto</a>
+      <a href="Curriculum_Benjamin_Munoz.pdf" download class="nav-cv-mobile">↓ descargar cv</a>
+    </div>
+
+    <main>
+
+      <!-- HERO -->
+      <section id="hero">
+        <p class="hero-role">Software Developer · Construyo proyectos escalables y responsivos</p>
+        <h1 class="hero-name">Benjamín<br />Muñoz<span>.</span></h1>
+        <p class="hero-tagline">
+          Soy Benjamín — Transformo ideas en interfaces web rápidas y adaptables,
+          escribiendo código limpio que asegura una experiencia perfecta tanto
+          en escritorio como en dispositivos móviles.
+        </p>
+        <div class="hero-meta">
+          <a href="mailto:b.munoz.mor21@gmail.com">b.munoz.mor21@gmail.com</a>
+          <a href="https://www.linkedin.com/in/benjam%C3%ADn-mu%C3%B1oz-morales-381a59358/" target="_blank">LinkedIn</a>
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <span>Nacimiento, Chile · Remoto / Híbrido / Presencial</span>
+        </div>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section id="proyectos">
+        <p class="section-label">proyectos</p>
+        <div class="projects-grid">
+
+          <!-- 01: ClearComex -->
+          <div class="project-card fade-in">
+            <div>
+              <p class="project-number">01</p>
+              <div class="project-placeholder">
+                <img src="/assets/img/ClearComex.png" alt="ClearComex Consulting">
+              </div>
+              <h3 class="project-title">ClearComex Consulting</h3>
+              <p class="project-desc">Landing page para cliente real en el rubro de consultoría. Diseño editorial oscuro con enfoque en conversión, formulario de contacto vía WhatsApp y despliegue en GitHub Pages.</p>
+            </div>
+            <div class="project-card-bottom">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">GitHub Pages</span>
+              </div>
+              <a href="https://www.clear-comex.com/" target="_blank" class="project-arrow">↗</a>
+            </div>
+          </div>
+
+          <!-- 02: Cóndor Aerial -->
+          <div class="project-card fade-in">
+            <div>
+              <p class="project-number">02</p>
+              <div class="project-placeholder">
+                <img src="/assets/img/condor_aerial.png" alt="Cóndor Aerial">
+              </div>
+              <h3 class="project-title">Cóndor Aerial</h3>
+              <p class="project-desc">Sitio web para empresa de servicios de drones con fotogrametría. Presenta capacidades técnicas, sectores atendidos (minería, forestal, agricultura) y galería de trabajos aéreos.</p>
+            </div>
+            <div class="project-card-bottom">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <a href="https://condor-aerial.vercel.app/" target="_blank" class="project-arrow">↗</a>
+            </div>
+          </div>
+
+          <!-- 03: Pudú — galería de 3 screenshots -->
+          <div class="project-card fade-in">
+            <div>
+              <p class="project-number">03</p>
+              <div class="project-gallery">
+                <img src="/assets/img/Screenshot_20260616-191651_Pudú.png" alt="Pudú Video Downloader pantalla 1">
+                <img src="/assets/img/Screenshot_20260616-191643_Pudú.png" alt="Pudú Video Downloader pantalla 2">
+                <img src="/assets/img/Screenshot_20260616-191701_Pudú.png" alt="Pudú Video Downloader pantalla 3">
+              </div>
+              <h3 class="project-title">Pudú Video Downloader</h3>
+              <p class="project-desc">Aplicación Android publicada en Play Store para descargar videos de redes sociales y plataformas multimedia. Procesamiento on-device con Python + yt-dlp + FFmpeg sin depender de servidores externos.</p>
+            </div>
+            <div class="project-card-bottom">
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Python</span>
+                <span class="tag">Chaquopy</span>
+                <span class="tag">yt-dlp</span>
+                <span class="tag">FFmpeg</span>
+              </div>
+              <a href="https://play.google.com/store/apps/details?id=com.lelosoftware.pudu" target="_blank" class="project-arrow">↗</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <p class="section-label">sobre mí</p>
+        <div class="about-grid">
+
+          <div>
+            <p class="about-sub">perfil</p>
+            <p class="about-text">
+              Programador y Analista de Sistemas con especialización en desarrollo web bajo arquitectura MVC.
+              Experiencia en PHP, JavaScript, Java y Python. Me oriento a la eficiencia técnica,
+              la escalabilidad de bases de datos y la resolución de problemas complejos.
+            </p>
+            <p class="about-sub">formación</p>
+            <p class="about-text" style="margin-bottom: 0">
+              Instituto Profesional AIEP<br />
+              <span style="opacity: 0.6">Técnico Universitario en Programación y Análisis de Sistemas</span><br />
+              <span style="opacity: 0.4; font-size: 11px">2024 – 2025 · Titulado</span>
+            </p>
+          </div>
+
+          <div>
+            <p class="about-sub">experiencia</p>
+            <div class="experience-item fade-in">
+              <p class="exp-company">Hospital de Angol Dr. Mauricio Heyermann</p>
+              <p class="exp-role">Práctica Profesional — Desarrollo Web</p>
+              <ul class="exp-bullets">
+                <li>Migración del sistema de control de patentes vehiculares a plataforma web moderna con CodeIgniter 4, transitando una base de datos con más de 1.000 registros.</li>
+                <li>Implementación de módulo PWA para control de accesos en terreno, optimizando tiempos de respuesta para más de 1.000 funcionarios.</li>
+                <li>Programación de lógica de negocio e integración de procedimientos almacenados en MySQL para consistencia y seguridad de datos.</li>
+                <li>Validaciones asíncronas con jQuery y JavaScript ES6+, reduciendo errores de entrada de datos.</li>
+                <li>Maquetación de interfaces responsivas con Bootstrap.</li>
+              </ul>
+              <p class="exp-date">01/2026 – 03/2026 · Angol, Chile</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <p class="section-label">habilidades & herramientas</p>
+        <div class="skills-grid">
+
+          <div class="skill-block fade-in">
+            <p class="skill-block-label">lenguajes</p>
+            <ul class="skill-list">
+              <li>PHP</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>HTML5 · CSS3</li>
+            </ul>
+          </div>
+
+          <div class="skill-block fade-in">
+            <p class="skill-block-label">frameworks & bases de datos</p>
+            <ul class="skill-list">
+              <li>CodeIgniter 4</li>
+              <li>Bootstrap · jQuery</li>
+              <li>React Native</li>
+              <li>MySQL</li>
+              <li>Procedimientos almacenados</li>
+              <li>Arquitectura MVC</li>
+            </ul>
+          </div>
+
+          <div class="skill-block fade-in">
+            <p class="skill-block-label">herramientas & metodologías</p>
+            <ul class="skill-list">
+              <li>Git · GitHub</li>
+              <li>Linux</li>
+              <li>Desarrollo Ágil (Scrum)</li>
+              <li>PWA</li>
+              <li>Inglés técnico</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <p class="section-label">contacto</p>
+        <h2 class="contact-heading">Trabajemos<br /><span>juntos.</span></h2>
+        <div class="contact-links">
+          <a href="mailto:b.munoz.mor21@gmail.com" class="contact-link">
+            <span class="contact-link-label">email</span>
+            b.munoz.mor21@gmail.com
+          </a>
+          <a href="tel:+56921901253" class="contact-link">
+            <span class="contact-link-label">teléfono</span>
+            +56 9 2190 1253
+          </a>
+          <a href="https://www.linkedin.com/in/benjam%C3%ADn-mu%C3%B1oz-morales-381a59358/" target="_blank" class="contact-link">
+            <span class="contact-link-label">linkedin</span>
+            /benjamín-muñoz-morales
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-link">
+            <span class="contact-link-label">github</span>
+            GitHub
+          </a>
+          <span class="contact-link">
+            <span class="contact-link-label">ubicación</span>
+            Nacimiento, Chile · Remoto / Híbrido / Presencial
+          </span>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>Benjamín Gonzalo Muñoz Morales — Desarrollador Fullstack</span>
+      <span>Nacimiento, Chile · 2026</span>
+    </footer>
+
+    <script src="/assets/script.js"></script>
+  </body>
+</html>
